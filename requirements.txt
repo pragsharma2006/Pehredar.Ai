@@ -1,0 +1,10 @@
+flask
+flask-sock
+opencv-python-headless
+ultralytics
+lap
+numpy
+requests
+fpdf2
+onnxruntime
+fast-alpr

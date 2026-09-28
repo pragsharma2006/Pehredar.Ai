@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pehredar.ai — AI-Powered Border Surveillance</title>
+<link rel="icon" href="/static/img/logo.svg">
+<link rel="stylesheet" href="/static/fonts/fonts.css">
+<link rel="stylesheet" href="/static/css/app.css">
+<script src="/static/vendor/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="tri-stripe"></div>
+
+<div class="boot" id="boot">
+  <div class="in">
+    <div class="loader"></div>
+    <div class="t">PEHREDAR<span style="color:var(--saffron)">.AI</span></div>
+    <div class="muted" id="bootMsg">Connecting to sector command…</div>
+  </div>
+</div>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <img src="/static/img/logo.svg" alt="">
+      <div class="words">
+        <div class="wm"><b>PEHREDAR</b><i>.AI</i></div>
+        <div class="dev">पहरेदार</div>
+        <div class="tag">AI-Powered Border Surveillance | Securing the Nation's Frontiers · IBVAP — Intelligent Border Video Analytics Platform</div>
+      </div>
+    </div>
+    <div class="hdr-sp"></div>
+    <div class="hdr-group hdr-hide">
+      <select class="sel" id="sector" title="Sector">
+        <option>Punjab Frontier — Sector 7</option>
+        <option disabled>Rajasthan Frontier — Sector 3 (no cameras onboarded)</option>
+        <option disabled>J&amp;K Frontier — Sector 11 (no cameras onboarded)</option>
+      </select>
+      <div class="sys" id="sys"><span class="dot"></span><span id="sysText">ALL GREEN</span></div>
+    </div>
+    <div class="clock"><div class="t" id="clockT">--:--:--</div><div class="d" id="clockD">IST</div></div>
+    <button class="icon-btn" id="alertBtn" title="Active alerts">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg>
+      <span class="badge-n" id="alertN" hidden>0</span>
+    </button>
+    <button class="icon-btn" id="soundBtn" title="Alert sound on/off"></button>
+    <button class="icon-btn" id="logBtn" title="Show / hide evidence log">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16"/></svg>
+    </button>
+    <div class="op hdr-hide"><div class="av" id="opAv">OP</div><div><div class="nm" id="opName">Operator</div><div class="rl" id="opRole"></div></div></div>
+  </header>
+
+  <div class="body" id="body">
+    <nav class="side" id="nav"></nav>
+    <main id="main"></main>
+    <aside class="log" id="log">
+      <div class="lh">
+        <h3>LIVE EVIDENCE LOG <span class="chip" id="logCount">0</span></h3>
+        <div class="chain" id="chain" title="Click to re-verify the SHA-256 hash chain">Verifying chain…</div>
+        <div class="fchips" id="logFilters"></div>
+      </div>
+      <div class="evlist" id="evlist"></div>
+    </aside>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+<div id="banner" hidden></div>
+<div id="modal" hidden></div>
+
+<script src="/static/js/core.js"></script>
+<script src="/static/js/pages.js"></script>
+<script src="/static/js/pages2.js"></script>
+</body>
+</html>

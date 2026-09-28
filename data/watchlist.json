@@ -1,0 +1,23 @@
+[
+  {
+    "plate": "PB10XX4521",
+    "display": "PB 10 XX 4521",
+    "reason": "Reported stolen (sample entry)",
+    "since": "2026-08-14",
+    "severity": "critical"
+  },
+  {
+    "plate": "JK01ZZ2233",
+    "display": "JK 01 ZZ 2233",
+    "reason": "Linked to smuggling FIR (sample entry)",
+    "since": "2026-07-02",
+    "severity": "critical"
+  },
+  {
+    "plate": "RJ14YY9087",
+    "display": "RJ 14 YY 9087",
+    "reason": "Wanted for questioning (sample entry)",
+    "since": "2026-09-01",
+    "severity": "critical"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "operator": {
+    "name": "Insp. R. Singh",
+    "role": "Duty Officer, Sector Control",
+    "id": "OP-0147"
+  },
+  "sector": "Punjab Frontier — Sector 7",
+  "sound": false,
+  "human": {
+    "conf": 0.8,
+    "crowd_threshold": 8,
+    "imgsz": 480,
+    "infer_every": 1
+  },
+  "vehicle": {
+    "conf": 0.35,
+    "stopped_seconds": 20,
+    "m_per_px": 0.06
+  },
+  "face": {
+    "det_conf": 0.8,
+    "match_threshold": 0.4,
+    "privacy_blur": true,
+    "min_face_px": 40
+  },
+  "anpr": {
+    "ocr_min_conf": 0.6,
+    "plate_cooldown_s": 300,
+    "min_crop_px": 90
+  },
+  "activity": {
+    "loiter_seconds": 12,
+    "run_speed_bh_s": 1.6,
+    "group_size": 4,
+    "group_radius_bh": 1.5,
+    "group_seconds": 6,
+    "crawl_aspect": 1.15,
+    "repeat_passes": 3,
+    "abandon_seconds": 15
+  },
+  "night": {
+    "mode": "auto",
+    "enter_below": 55,
+    "exit_above": 70,
+    "gamma": 1.6,
+    "clahe_clip": 3.0
+  },
+  "alerts": {
+    "cooldown_s": 25,
+    "banner": true
+  },
+  "network": {
+    "adaptive": true
+  },
+  "integrations": {
+    "webhook_url": ""
+  }
+}

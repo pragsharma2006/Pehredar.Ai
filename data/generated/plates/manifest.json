@@ -1,0 +1,86 @@
+[
+  {
+    "plate": "PB10XX4521",
+    "display": "PB 10 XX 4521",
+    "commercial": false,
+    "plate_image": "plate_PB10XX4521.png",
+    "on_sprite": "sprite_car_PB10XX4521.png"
+  },
+  {
+    "plate": "JK01ZZ2233",
+    "display": "JK 01 ZZ 2233",
+    "commercial": false,
+    "plate_image": "plate_JK01ZZ2233.png",
+    "on_sprite": "sprite_suv_JK01ZZ2233.png"
+  },
+  {
+    "plate": "RJ14YY9087",
+    "display": "RJ 14 YY 9087",
+    "commercial": false,
+    "plate_image": "plate_RJ14YY9087.png",
+    "on_sprite": "sprite_truck_RJ14YY9087.png"
+  },
+  {
+    "plate": "GJ12AB3456",
+    "display": "GJ 12 AB 3456",
+    "commercial": false,
+    "plate_image": "plate_GJ12AB3456.png",
+    "on_sprite": "sprite_car_GJ12AB3456.png"
+  },
+  {
+    "plate": "PB65MK7788",
+    "display": "PB 65 MK 7788",
+    "commercial": false,
+    "plate_image": "plate_PB65MK7788.png",
+    "on_sprite": "sprite_suv_PB65MK7788.png"
+  },
+  {
+    "plate": "JK02CD1122",
+    "display": "JK 02 CD 1122",
+    "commercial": false,
+    "plate_image": "plate_JK02CD1122.png",
+    "on_sprite": "sprite_truck_JK02CD1122.png"
+  },
+  {
+    "plate": "PB08DK4410",
+    "display": "PB 08 DK 4410",
+    "commercial": true,
+    "plate_image": "plate_PB08DK4410.png",
+    "on_sprite": "sprite_car_PB08DK4410.png"
+  },
+  {
+    "plate": "RJ19GA2071",
+    "display": "RJ 19 GA 2071",
+    "commercial": true,
+    "plate_image": "plate_RJ19GA2071.png",
+    "on_sprite": "sprite_suv_RJ19GA2071.png"
+  },
+  {
+    "plate": "GJ18BT6603",
+    "display": "GJ 18 BT 6603",
+    "commercial": false,
+    "plate_image": "plate_GJ18BT6603.png",
+    "on_sprite": "sprite_truck_GJ18BT6603.png"
+  },
+  {
+    "plate": "WB24AK9121",
+    "display": "WB 24 AK 9121",
+    "commercial": false,
+    "plate_image": "plate_WB24AK9121.png",
+    "on_sprite": "sprite_car_WB24AK9121.png"
+  },
+  {
+    "plate": "AS01BC7002",
+    "display": "AS 01 BC 7002",
+    "commercial": true,
+    "plate_image": "plate_AS01BC7002.png",
+    "on_sprite": "sprite_suv_AS01BC7002.png"
+  },
+  {
+    "plate": "22BH4567AA",
+    "display": "22 BH 4567 AA",
+    "commercial": false,
+    "plate_image": "plate_22BH4567AA.png",
+    "on_sprite": "sprite_truck_22BH4567AA.png"
+  }
+]

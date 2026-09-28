@@ -1,0 +1,221 @@
+{
+  "CAM-01": [
+    {
+      "id": "c01-count",
+      "name": "Gate counting line",
+      "type": "count",
+      "points": [
+        [
+          0.05,
+          0.78
+        ],
+        [
+          0.95,
+          0.78
+        ]
+      ],
+      "objects": "person"
+    },
+    {
+      "id": "c01-armoury",
+      "name": "Armoury door",
+      "type": "restricted",
+      "points": [
+        [
+          0.74,
+          0.5
+        ],
+        [
+          0.99,
+          0.5
+        ],
+        [
+          0.99,
+          0.99
+        ],
+        [
+          0.74,
+          0.99
+        ]
+      ],
+      "objects": "person"
+    }
+  ],
+  "CAM-04": [
+    {
+      "id": "c04-fence",
+      "name": "Fence strip",
+      "type": "restricted",
+      "points": [
+        [
+          0,
+          0.505
+        ],
+        [
+          1,
+          0.505
+        ],
+        [
+          1,
+          0.57
+        ],
+        [
+          0,
+          0.57
+        ]
+      ]
+    },
+    {
+      "id": "c04-buffer",
+      "name": "Inner buffer",
+      "type": "buffer",
+      "points": [
+        [
+          0,
+          0.57
+        ],
+        [
+          1,
+          0.57
+        ],
+        [
+          1,
+          0.68
+        ],
+        [
+          0,
+          0.68
+        ]
+      ],
+      "objects": "person"
+    },
+    {
+      "id": "c04-gate",
+      "name": "Patrol gate line",
+      "type": "count",
+      "points": [
+        [
+          0.5,
+          0.7
+        ],
+        [
+          0.5,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "CAM-05": [
+    {
+      "id": "c05-river",
+      "name": "River channel",
+      "type": "restricted",
+      "points": [
+        [
+          0,
+          0.44
+        ],
+        [
+          1,
+          0.44
+        ],
+        [
+          1,
+          0.62
+        ],
+        [
+          0,
+          0.62
+        ]
+      ],
+      "objects": "person",
+      "schedule": "night"
+    },
+    {
+      "id": "c05-bank",
+      "name": "Near-bank tripwire",
+      "type": "tripwire",
+      "points": [
+        [
+          1,
+          0.645
+        ],
+        [
+          0,
+          0.645
+        ]
+      ],
+      "direction": "forward",
+      "objects": "person",
+      "schedule": "night"
+    }
+  ],
+  "CAM-06": [
+    {
+      "id": "c06-count",
+      "name": "Corridor entry line",
+      "type": "count",
+      "points": [
+        [
+          0.05,
+          0.9
+        ],
+        [
+          0.95,
+          0.9
+        ]
+      ],
+      "objects": "person"
+    }
+  ],
+  "CAM-08": [
+    {
+      "id": "c08-pad",
+      "name": "Helipad (no entry)",
+      "type": "restricted",
+      "points": [
+        [
+          0.7,
+          0.62
+        ],
+        [
+          0.6618,
+          0.7023
+        ],
+        [
+          0.5618,
+          0.7531
+        ],
+        [
+          0.4382,
+          0.7531
+        ],
+        [
+          0.3382,
+          0.7023
+        ],
+        [
+          0.3,
+          0.62
+        ],
+        [
+          0.3382,
+          0.5377
+        ],
+        [
+          0.4382,
+          0.4869
+        ],
+        [
+          0.5618,
+          0.4869
+        ],
+        [
+          0.6618,
+          0.5377
+        ]
+      ],
+      "objects": "person"
+    }
+  ]
+}

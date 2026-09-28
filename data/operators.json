@@ -1,0 +1,20 @@
+[
+  {
+    "id": "OP-0147",
+    "name": "Insp. R. Singh",
+    "role": "Duty Officer, Sector Control",
+    "shift": "20:00–08:00"
+  },
+  {
+    "id": "OP-0212",
+    "name": "SI P. Chauhan",
+    "role": "Surveillance Operator",
+    "shift": "08:00–20:00"
+  },
+  {
+    "id": "OP-0309",
+    "name": "HC M. Yadav",
+    "role": "Quick Reaction Team lead",
+    "shift": "on call"
+  }
+]

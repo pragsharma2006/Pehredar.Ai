@@ -1,0 +1,197 @@
+[
+  {
+    "id": "CAM-01",
+    "name": "BOP Alpha Main Gate",
+    "location": "Border Out Post Alpha",
+    "gps": [
+      31.6041,
+      74.5731
+    ],
+    "link": "Fibre",
+    "kind": "live",
+    "source": "auto",
+    "modules": [
+      "human",
+      "face",
+      "fence",
+      "activity",
+      "night",
+      "vehicle",
+      "anpr"
+    ],
+    "anpr_body": true,
+    "restricted_post": true,
+    "heavy_restricted": false,
+    "in_vector": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "CAM-02",
+    "name": "Check Post Bravo",
+    "location": "Vehicle Check Post Bravo — ANPR lane",
+    "gps": [
+      31.6112,
+      74.5608
+    ],
+    "link": "Fibre",
+    "kind": "recorded",
+    "source": "generated/checkpost_anpr.mp4",
+    "modules": [
+      "vehicle",
+      "anpr"
+    ],
+    "restricted_post": false,
+    "heavy_restricted": false,
+    "in_vector": [
+      0,
+      1
+    ],
+    "anpr_body": true,
+    "anpr_min_area": 0.08
+  },
+  {
+    "id": "CAM-03",
+    "name": "Border Road Charlie",
+    "location": "Patrol Road Charlie, km 14",
+    "gps": [
+      31.6187,
+      74.5402
+    ],
+    "link": "4G",
+    "kind": "recorded",
+    "source": "videos/car-detection.mp4",
+    "modules": [
+      "vehicle",
+      "anpr",
+      "activity"
+    ],
+    "restricted_post": false,
+    "heavy_restricted": true,
+    "in_vector": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "CAM-04",
+    "name": "Watchtower Delta Fence Line",
+    "location": "Watchtower Delta — Fence Line",
+    "gps": [
+      31.6239,
+      74.5301
+    ],
+    "link": "Radio",
+    "kind": "synthetic",
+    "source": "generated/fence_line",
+    "modules": [
+      "human",
+      "fence",
+      "activity",
+      "night"
+    ],
+    "restricted_post": true,
+    "heavy_restricted": false,
+    "in_vector": [
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "CAM-05",
+    "name": "Riverine Sector Echo",
+    "location": "Riverine Sector Echo — Ravi bank",
+    "gps": [
+      31.6302,
+      74.5155
+    ],
+    "link": "VSAT",
+    "kind": "synthetic",
+    "source": "generated/riverine_night",
+    "modules": [
+      "human",
+      "night",
+      "fence",
+      "activity"
+    ],
+    "restricted_post": true,
+    "heavy_restricted": false,
+    "in_vector": [
+      1,
+      0
+    ],
+    "display": "thermal"
+  },
+  {
+    "id": "CAM-06",
+    "name": "BOP Foxtrot Entry Corridor",
+    "location": "BOP Foxtrot — Entry Corridor",
+    "gps": [
+      31.5978,
+      74.5822
+    ],
+    "link": "Fibre",
+    "kind": "recorded",
+    "source": "videos/face-demographics-walking.mp4",
+    "modules": [
+      "human",
+      "face"
+    ],
+    "restricted_post": true,
+    "heavy_restricted": false,
+    "in_vector": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "CAM-07",
+    "name": "Supply Route Golf",
+    "location": "Supply Route Golf — depot yard",
+    "gps": [
+      31.5903,
+      74.595
+    ],
+    "link": "4G",
+    "kind": "recorded",
+    "source": "videos/person-bicycle-car-detection.mp4",
+    "modules": [
+      "human",
+      "vehicle",
+      "anpr",
+      "activity"
+    ],
+    "restricted_post": false,
+    "heavy_restricted": false,
+    "in_vector": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "CAM-08",
+    "name": "Helipad Hotel",
+    "location": "Helipad Hotel — Sector HQ",
+    "gps": [
+      31.5855,
+      74.6068
+    ],
+    "link": "VSAT",
+    "kind": "synthetic",
+    "source": "generated/helipad",
+    "modules": [
+      "human",
+      "vehicle",
+      "fence",
+      "activity",
+      "night"
+    ],
+    "restricted_post": true,
+    "heavy_restricted": false,
+    "in_vector": [
+      0,
+      1
+    ]
+  }
+]
